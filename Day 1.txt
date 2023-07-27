@@ -1,0 +1,4 @@
+Day to day evaluation of Scala learning
+
+1. What is scala, why scala
+2. What is SBT, why SBT
