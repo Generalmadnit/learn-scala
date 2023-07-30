@@ -1,0 +1,18 @@
+Day to day evaluation of Scala learning
+
+Day 1
+1. What is scala, why scala
+2. What is SBT, why SBT
+
+Day 2
+1. Installing sbt in windows
+2. Running hello world
+
+Day 3
+1. Conditional statements
+2. Looping statements
+
+Day 4
+1. reading from user and manipulating
+2. loops in depth
+3. String modifiers

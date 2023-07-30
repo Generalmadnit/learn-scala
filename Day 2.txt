@@ -1,2 +1,0 @@
-1. Installing sbt in windows
-2. Running hello world
