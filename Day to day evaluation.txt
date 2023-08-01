@@ -130,3 +130,5 @@ object Day8
   }
 }
 
+Day 6
+
