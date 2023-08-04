@@ -132,3 +132,43 @@ object Day8
 
 Day 6
 
+->
+.sc vs .scala
+
+A .scala file is a regular Scala file, in order to be compiled and ran as a regular program. This is the most common scala file that you will use
+
+An .sc file is a worksheet or a scratch, it is a file that will be evaluated as you save, the result for each expression is shown in a column to the right of your IDE. Worksheets are like a REPL session. It is useful to test some code in a quick way, just as you can do run the REPL
+
+The file extensions ".sc" and ".scala" both indicate Scala source code files, but they are used in different contexts.
+
+1. **.sc Files**: The ".sc" extension is typically used for Scala script files. Scala scripts are used for scripting purposes and are often used for quick testing and experimentation. Unlike standard Scala code, which is usually compiled before execution, Scala scripts are executed directly, similar to interpreted scripts in other programming languages.
+
+Scala scripts can be executed directly from the command line using the `scala` interpreter, which allows you to run Scala code without having to compile it into bytecode first. To execute a Scala script named "myscript.sc," you can run the following command:
+
+```
+scala myscript.sc
+```
+
+2. **.scala Files**: The ".scala" extension is the standard file extension for Scala source code files. These files contain Scala code, and they need to be compiled into bytecode before execution. Scala is a statically typed language, and the compiler checks the type safety of your code and generates bytecode for the Java Virtual Machine (JVM) to run.
+
+To compile a ".scala" file, you use the Scala compiler (scalac). For example, to compile "myscript.scala," you can run:
+
+```
+scalac myscript.scala
+```
+
+After successful compilation, a corresponding ".class" file will be generated, and you can run the Scala code using the `scala` command:
+
+```
+scala myscript
+```
+
+In summary, ".sc" files are used for Scala scripts and are interpreted directly by the Scala interpreter, while ".scala" files are used for standard Scala source code that needs to be compiled into bytecode before execution on the JVM.
+
+->
+Is scala object oriented or functional
+
+scala is a pure object oriented and has the ability to create functions that are sometimes in the format of a method, scala can be called as pure oop as the oop conecpts like
+no primitive data 
+
+-> parameters in scala are immutable
