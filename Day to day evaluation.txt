@@ -172,3 +172,40 @@ scala is a pure object oriented and has the ability to create functions that are
 no primitive data 
 
 -> parameters in scala are immutable
+
+Topics in scala 
+Introduction
+Basics
+Unified Types
+Classes
+Default Parameter Values
+Named Arguments
+Traits
+Tuples
+Class Composition with Mixins
+Higher-order Functions
+Nested Methods
+Multiple Parameter Lists
+Case Classes
+Pattern Matching
+Singleton Objects
+Regular Expression Patterns
+Extractor Objects
+For Comprehensions
+Generic Classes
+Variances
+Upper Type Bounds
+Lower Type Bounds
+Inner Classes
+Abstract Type Members
+Intersection Types, aka Compound Types
+Self-type
+Contextual Parameters, aka Implicit Parameters
+Implicit Conversions
+Polymorphic Methods
+Type Inference
+Operators
+By-name Parameters
+Annotations
+Packages and Imports
+Top Level Definitions in Packages
