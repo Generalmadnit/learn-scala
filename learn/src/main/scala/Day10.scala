@@ -10,13 +10,13 @@ object Day10
   def main(args:Array[String]):Unit={
     var addy= (x :Int, y :Int)=>{
       println("Welcome")
-      x+y
+      return x+y
     }
     println("Enter two numbers")
     val a = readInt()
     val b = readInt()
-//    println(""+Math.add(15,63))
-//    println(""+Math.-(10,5))
+    println(""+Math.add(15,63))
+    println(""+Math.-(10,5))
     println(""+addy(a,b))
   }
   object Math
