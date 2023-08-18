@@ -1,20 +1,29 @@
-object Day12
+import scala.io.StdIn.readInt
+object Day13
 {
   def main(args: Array[String]):Unit=
     {
-      var rng = 100
+      println("Enter the starting and ending range of numbers")
+      var strt = readInt()
+      var rng = readInt()
       var cnt = 0
-      for(rng <- 1 to 100)
+      var pcmt = 0
+      for(i <- strt to rng)
       {
         cnt = 0
-        for(j <- 1 to rng)
+        for(j <- 1 to i)
           {
 //            println(rng%j)
-            if(rng % j ==0)
+            if(i % j ==0)
               cnt = cnt + 1
           }
           if(cnt==2)
-            println(rng)
+            {
+              println(i)
+              pcmt = pcmt+1
+            }
+            println(i)
       }
+      println(pcmt," Primes")
     }
 }
